@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/what-in-the-world-react/static/css/main.f7021847.css",
-    "main.js": "/what-in-the-world-react/static/js/main.737b50bf.js",
+    "main.js": "/what-in-the-world-react/static/js/main.be70451a.js",
     "static/js/787.97060601.chunk.js": "/what-in-the-world-react/static/js/787.97060601.chunk.js",
     "static/media/af.svg": "/what-in-the-world-react/static/media/af.39e74801e5626eaaf6f0.svg",
     "static/media/NunitoSans-Regular.ttf": "/what-in-the-world-react/static/media/NunitoSans-Regular.a427ddbe4dc20889d6e0.ttf",
@@ -14,11 +14,11 @@
     "static/media/is.svg": "/what-in-the-world-react/static/media/is.bb94eebadbe98e459758.svg",
     "static/media/de.svg": "/what-in-the-world-react/static/media/de.ed5be69598a5a9c32bc8.svg",
     "main.f7021847.css.map": "/what-in-the-world-react/static/css/main.f7021847.css.map",
-    "main.737b50bf.js.map": "/what-in-the-world-react/static/js/main.737b50bf.js.map",
+    "main.be70451a.js.map": "/what-in-the-world-react/static/js/main.be70451a.js.map",
     "787.97060601.chunk.js.map": "/what-in-the-world-react/static/js/787.97060601.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f7021847.css",
-    "static/js/main.737b50bf.js"
+    "static/js/main.be70451a.js"
   ]
 }
