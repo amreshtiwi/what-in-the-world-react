@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bd84c1ca.css",
+    "main.js": "/static/js/main.1c975ece.js",
+    "static/js/787.97060601.chunk.js": "/static/js/787.97060601.chunk.js",
+    "static/media/af.svg": "/static/media/af.39e74801e5626eaaf6f0.svg",
+    "static/media/NunitoSans-Regular.ttf": "/static/media/NunitoSans-Regular.a427ddbe4dc20889d6e0.ttf",
+    "static/media/al.svg": "/static/media/al.dd17f9b0b19aa16e7afe.svg",
+    "static/media/br.svg": "/static/media/br.0195f1434b135a18881f.svg",
+    "index.html": "/index.html",
+    "static/media/us.svg": "/static/media/us.14abad61351d51223436.svg",
+    "static/media/ax.svg": "/static/media/ax.dae59e50e62504789ce5.svg",
+    "static/media/dz.svg": "/static/media/dz.8fee433ae9c49de475a8.svg",
+    "static/media/is.svg": "/static/media/is.bb94eebadbe98e459758.svg",
+    "static/media/de.svg": "/static/media/de.ed5be69598a5a9c32bc8.svg",
+    "main.bd84c1ca.css.map": "/static/css/main.bd84c1ca.css.map",
+    "main.1c975ece.js.map": "/static/js/main.1c975ece.js.map",
+    "787.97060601.chunk.js.map": "/static/js/787.97060601.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd84c1ca.css",
+    "static/js/main.1c975ece.js"
+  ]
+}
