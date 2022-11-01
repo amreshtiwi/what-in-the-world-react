@@ -1,7 +1,7 @@
 import { Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-import country from "../mock-details.json";
+import country from '../countries.json';
 
 export default function Details(){
     const navigate = useNavigate();
@@ -10,22 +10,22 @@ export default function Details(){
         <div className="container px-4 px-lg-0 " style={{ padding: "1rem 0", marginTop: "100px", }}>
             <Button startIcon={<ArrowBackIcon />} onClick={()=> navigate('/')} sx={{ backgroundColor: "white", color: "black" , boxShadow: "0 3px 10px -7px #858585"}}> Back</Button>
             <div className="my-3 py-5 row justify-content-between align-items-center">
-                <img src={country.flags.svg} alt={country.name.common} className="col col-lg-5 mb-5 mb-lg-0" style={{height: "400px", objectFit: "cover",}} ></img>
+                <img src={country[0].flags.svg} alt={country[0].name.common} className="col col-lg-5 mb-5 mb-lg-0" style={{height: "400px", objectFit: "cover",}} ></img>
                 <div className="col-lg-6">
-                    <h2 className="fs-2 fw-bold">{country.name.official}</h2>
+                    <h2 className="fs-2 fw-bold">{country[0].name.official}</h2>
                     <div className="row justify-content-between">
                         <div className="my-3 col-lg-6">
-                            <p className="my-2"><strong className="fw-semibold">Native Name:</strong> {Object.values(country.name.nativeName)[0].common}</p>
-                            <p className="my-2"><strong className="fw-semibold">Population:</strong> {country.population.toLocaleString()}</p>
-                            <p className="my-2"><strong className="fw-semibold">Region:</strong> {country.region}</p>
-                            <p className="my-2"><strong className="fw-semibold">Sub Region:</strong> {country.subregion}</p>
-                            <p className="my-2"><strong className="fw-semibold">Capital:</strong> {country.capital}</p>
+                            <p className="my-2"><strong className="fw-semibold">Native Name:</strong> {Object.values(country[0].name.nativeName)[0].common}</p>
+                            <p className="my-2"><strong className="fw-semibold">Population:</strong> {country[0].population.toLocaleString()}</p>
+                            <p className="my-2"><strong className="fw-semibold">Region:</strong> {country[0].region}</p>
+                            <p className="my-2"><strong className="fw-semibold">Sub Region:</strong> {country[0].subregion}</p>
+                            <p className="my-2"><strong className="fw-semibold">Capital:</strong> {country[0].capital}</p>
                         </div>
 
                         <div className="my-3 col-lg-6">
-                            <p className="my-2"><strong className="fw-semibold">Top Level Domain:</strong> {country.tld}</p>
-                            <p className="my-2"><strong className="fw-semibold">currencies:</strong> {Object.values(country.currencies).map(cur => cur.name).join(",")}</p>
-                            <p className="my-2"><strong className="fw-semibold">Languages:</strong> {Object.values(country.languages).join(", ")}</p>
+                            <p className="my-2"><strong className="fw-semibold">Top Level Domain:</strong> {country[0].tld}</p>
+                            <p className="my-2"><strong className="fw-semibold">currencies:</strong> {Object.values(country[0].currencies).map(cur => cur.name).join(",")}</p>
+                            <p className="my-2"><strong className="fw-semibold">Languages:</strong> {Object.values(country[0].languages).join(", ")}</p>
                         </div>
 
                         <div className="row align-items-center my-3 ">

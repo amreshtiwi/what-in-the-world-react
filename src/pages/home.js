@@ -1,12 +1,10 @@
 
-import Countries from '../mock-countries.json'
-// import FilterDropMenu from '../components/filterDropMenu';
+import Countries from '../countries.json';
 import { InputBase } from '@mui/material';
 import CountryCard from '../component/card';
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
 import SelectLabels from '../component/filter';
-// import Favorite from '../component/fav-section';
-// <i name="icon" class="fa-solid fa-search px-4" ></i>
+
 
 export default function Home (){
     const keys = Object.keys(Countries);

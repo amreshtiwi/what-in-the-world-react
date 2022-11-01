@@ -16,7 +16,7 @@ export default function CountryCard(props){
                 >
                     <CardMedia
                         component="img"
-                        image={require("../flags/" + props.country.img)}
+                        src={props.country.flags.svg}
                         height="170px"
                     />
 
@@ -24,10 +24,10 @@ export default function CountryCard(props){
                         p: 3
                     }} >
                         <Typography variant='h6' sx={{ mb: 2, fontWeight: 600 }}>
-                            {props.country.name}
+                            {props.country.name.common}
                         </Typography>
                         <Typography variant='subtitle2' display='block'>
-                            <strong>Population: </strong>{props.country.population}
+                            <strong>Population: </strong>{props.country.population.toLocaleString()}
                         </Typography>
                         <Typography variant='subtitle2' display='block'>
                             <strong>Region: </strong>{props.country.region}

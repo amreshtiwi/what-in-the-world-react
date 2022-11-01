@@ -1,0 +1,1217 @@
+[{
+    "name": {
+        "common": "Barbados",
+        "official": "Barbados",
+        "nativeName": {
+            "eng": {
+                "official": "Barbados",
+                "common": "Barbados"
+            }
+        }
+    },
+    "tld": [
+        ".bb"
+    ],
+    "cca2": "BB",
+    "ccn3": "052",
+    "cca3": "BRB",
+    "cioc": "BAR",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+        "BBD": {
+            "name": "Barbadian dollar",
+            "symbol": "$"
+        }
+    },
+    "idd": {
+        "root": "+1",
+        "suffixes": [
+            "246"
+        ]
+    },
+    "capital": [
+        "Bridgetown"
+    ],
+    "altSpellings": [
+        "BB"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": {
+        "eng": "English"
+    },
+    "translations": {
+        "ara": {
+            "official": "باربادوس",
+            "common": "باربادوس"
+        },
+        "bre": {
+            "official": "Barbados",
+            "common": "Barbados"
+        },
+        "ces": {
+            "official": "Barbados",
+            "common": "Barbados"
+        },
+        "cym": {
+            "official": "Barbados",
+            "common": "Barbados"
+        },
+        "deu": {
+            "official": "Barbados",
+            "common": "Barbados"
+        },
+        "est": {
+            "official": "Barbados",
+            "common": "Barbados"
+        },
+        "fin": {
+            "official": "Barbados",
+            "common": "Barbados"
+        },
+        "fra": {
+            "official": "Barbade",
+            "common": "Barbade"
+        },
+        "hrv": {
+            "official": "Barbados",
+            "common": "Barbados"
+        },
+        "hun": {
+            "official": "Barbados",
+            "common": "Barbados"
+        },
+        "ita": {
+            "official": "Barbados",
+            "common": "Barbados"
+        },
+        "jpn": {
+            "official": "バルバドス",
+            "common": "バルバドス"
+        },
+        "kor": {
+            "official": "바베이도스",
+            "common": "바베이도스"
+        },
+        "nld": {
+            "official": "Barbados",
+            "common": "Barbados"
+        },
+        "per": {
+            "official": "باربادوس",
+            "common": "باربادوس"
+        },
+        "pol": {
+            "official": "Barbados",
+            "common": "Barbados"
+        },
+        "por": {
+            "official": "Barbados",
+            "common": "Barbados"
+        },
+        "rus": {
+            "official": "Барбадос",
+            "common": "Барбадос"
+        },
+        "slk": {
+            "official": "Barbados",
+            "common": "Barbados"
+        },
+        "spa": {
+            "official": "Barbados",
+            "common": "Barbados"
+        },
+        "swe": {
+            "official": "Barbados",
+            "common": "Barbados"
+        },
+        "tur": {
+            "official": "Barbados",
+            "common": "Barbados"
+        },
+        "urd": {
+            "official": "بارباڈوس",
+            "common": "بارباڈوس"
+        },
+        "zho": {
+            "official": "巴巴多斯",
+            "common": "巴巴多斯"
+        }
+    },
+    "latlng": [
+        13.16666666,
+        -59.53333333
+    ],
+    "landlocked": false,
+    "area": 430.0,
+    "demonyms": {
+        "eng": {
+            "f": "Barbadian",
+            "m": "Barbadian"
+        },
+        "fra": {
+            "f": "Barbadienne",
+            "m": "Barbadien"
+        }
+    },
+    "flag": "\uD83C\uDDE7\uD83C\uDDE7",
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/2m36v8STvbGAWd9c7",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/547511"
+    },
+    "population": 287371,
+    "fifa": "BRB",
+    "car": {
+        "signs": [
+            "BDS"
+        ],
+        "side": "left"
+    },
+    "timezones": [
+        "UTC-04:00"
+    ],
+    "continents": [
+        "North America"
+    ],
+    "flags": {
+        "png": "https://flagcdn.com/w320/bb.png",
+        "svg": "https://flagcdn.com/bb.svg"
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/bb.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/bb.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            13.1,
+            -59.62
+        ]
+    },
+    "postalCode": {
+        "format": "BB#####",
+        "regex": "^(?:BB)*(\\d{5})$"
+    }
+},
+{
+    "name": {
+        "common": "British Indian Ocean Territory",
+        "official": "British Indian Ocean Territory",
+        "nativeName": {
+            "eng": {
+                "official": "British Indian Ocean Territory",
+                "common": "British Indian Ocean Territory"
+            }
+        }
+    },
+    "tld": [
+        ".io"
+    ],
+    "cca2": "IO",
+    "ccn3": "086",
+    "cca3": "IOT",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "currencies": {
+        "USD": {
+            "name": "United States dollar",
+            "symbol": "$"
+        }
+    },
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "46"
+        ]
+    },
+    "capital": [
+        "Diego Garcia"
+    ],
+    "altSpellings": [
+        "IO"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "languages": {
+        "eng": "English"
+    },
+    "translations": {
+        "ara": {
+            "official": "إقليم المحيط الهندي البريطاني",
+            "common": "إقليم المحيط الهندي البريطاني"
+        },
+        "bre": {
+            "official": "Tiriad breizhveurat Meurvor Indez",
+            "common": "Tiriad breizhveurat Meurvor Indez"
+        },
+        "ces": {
+            "official": "Britské indickooceánské území",
+            "common": "Britské indickooceánské území"
+        },
+        "cym": {
+            "official": "Tiriogaeth Brydeinig Cefnfor India",
+            "common": "Tiriogaeth Brydeinig Cefnfor India"
+        },
+        "deu": {
+            "official": "Britisches Territorium im Indischen Ozean",
+            "common": "Britisches Territorium im Indischen Ozean"
+        },
+        "est": {
+            "official": "Briti India ookeani ala",
+            "common": "Briti India ookeani ala"
+        },
+        "fin": {
+            "official": "Brittiläinen Intian valtameren alue",
+            "common": "Brittiläinen Intian valtameren alue"
+        },
+        "fra": {
+            "official": "Territoire britannique de l' océan Indien",
+            "common": "Territoire britannique de l'océan Indien"
+        },
+        "hrv": {
+            "official": "British Indian Ocean Territory",
+            "common": "Britanski Indijskooceanski teritorij"
+        },
+        "hun": {
+            "official": "Brit Indiai-óceáni Terület",
+            "common": "Brit Indiai-óceáni Terület"
+        },
+        "ita": {
+            "official": "Territorio britannico dell'Oceano Indiano",
+            "common": "Territorio britannico dell'oceano indiano"
+        },
+        "jpn": {
+            "official": "イギリス領インド洋地域",
+            "common": "イギリス領インド洋地域"
+        },
+        "kor": {
+            "official": "인도 공화국",
+            "common": "인도"
+        },
+        "nld": {
+            "official": "Brits Indische Oceaan Territorium",
+            "common": "Britse Gebieden in de Indische Oceaan"
+        },
+        "per": {
+            "official": "قلمرو بریتانیا در اقیانوس هند",
+            "common": "قلمرو بریتانیا در اقیانوس هند"
+        },
+        "pol": {
+            "official": "Brytyjskie Terytorium Oceanu Indyjskiego",
+            "common": "Brytyjskie Terytorium Oceanu Indyjskiego"
+        },
+        "por": {
+            "official": "British Indian Ocean Territory",
+            "common": "Território Britânico do Oceano Índico"
+        },
+        "rus": {
+            "official": "Британская территория Индийского океана",
+            "common": "Британская территория в Индийском океане"
+        },
+        "slk": {
+            "official": "Britské indickooceánske územie",
+            "common": "Britské indickooceánske územie"
+        },
+        "spa": {
+            "official": "Territorio Británico del Océano Índico",
+            "common": "Territorio Británico del Océano Índico"
+        },
+        "swe": {
+            "official": "Brittiska territoriet i Indiska Oceanen",
+            "common": "Brittiska territoriet i Indiska Oceanen"
+        },
+        "tur": {
+            "official": "Britanya Hint Okyanusu Toprakları",
+            "common": "Britanya Hint Okyanusu Toprakları"
+        },
+        "urd": {
+            "official": "برطانوی بحرہند خطہ",
+            "common": "برطانوی بحرہند خطہ"
+        },
+        "zho": {
+            "official": "英属印度洋领地",
+            "common": "英属印度洋领地"
+        }
+    },
+    "latlng": [
+        -6.0,
+        71.5
+    ],
+    "landlocked": false,
+    "area": 60.0,
+    "demonyms": {
+        "eng": {
+            "f": "Indian",
+            "m": "Indian"
+        }
+    },
+    "flag": "\uD83C\uDDEE\uD83C\uDDF4",
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/bheNucgekVEYozoi6",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/1993867"
+    },
+    "population": 3000,
+    "car": {
+        "signs": [
+            "GB"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC+06:00"
+    ],
+    "continents": [
+        "Asia"
+    ],
+    "flags": {
+        "png": "https://flagcdn.com/w320/io.png",
+        "svg": "https://flagcdn.com/io.svg"
+    },
+    "coatOfArms": {},
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            -7.3,
+            72.4
+        ]
+    }
+},
+{
+    "name": {
+        "common": "Republic of the Congo",
+        "official": "Republic of the Congo",
+        "nativeName": {
+            "fra": {
+                "official": "République du Congo",
+                "common": "République du Congo"
+            },
+            "kon": {
+                "official": "Repubilika ya Kongo",
+                "common": "Repubilika ya Kongo"
+            },
+            "lin": {
+                "official": "Republíki ya Kongó",
+                "common": "Republíki ya Kongó"
+            }
+        }
+    },
+    "tld": [
+        ".cg"
+    ],
+    "cca2": "CG",
+    "ccn3": "178",
+    "cca3": "COG",
+    "cioc": "CGO",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+        "XAF": {
+            "name": "Central African CFA franc",
+            "symbol": "Fr"
+        }
+    },
+    "idd": {
+        "root": "+2",
+        "suffixes": [
+            "42"
+        ]
+    },
+    "capital": [
+        "Brazzaville"
+    ],
+    "altSpellings": [
+        "CG",
+        "Congo",
+        "Congo-Brazzaville"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "languages": {
+        "fra": "French",
+        "kon": "Kikongo",
+        "lin": "Lingala"
+    },
+    "translations": {
+        "ara": {
+            "official": "جمهورية الكونغو",
+            "common": "جمهورية الكونفو"
+        },
+        "bre": {
+            "official": "Republik Kongo",
+            "common": "Kongo-Brazzaville"
+        },
+        "ces": {
+            "official": "Konžská republika",
+            "common": "Kongo"
+        },
+        "cym": {
+            "official": "Gweriniaeth y Congo",
+            "common": "Gweriniaeth y Congo"
+        },
+        "deu": {
+            "official": "Republik Kongo",
+            "common": "Kongo"
+        },
+        "est": {
+            "official": "Kongo Vabariik",
+            "common": "Kongo Vabariik"
+        },
+        "fin": {
+            "official": "Kongon tasavalta",
+            "common": "Kongo-Brazzaville"
+        },
+        "fra": {
+            "official": "République du Congo",
+            "common": "Congo"
+        },
+        "hrv": {
+            "official": "Republika Kongo",
+            "common": "Kongo"
+        },
+        "hun": {
+            "official": "Kongói Köztársaság",
+            "common": "Kongói Köztársaság"
+        },
+        "ita": {
+            "official": "Repubblica del Congo",
+            "common": "Congo"
+        },
+        "jpn": {
+            "official": "コンゴ共和国",
+            "common": "コンゴ共和国"
+        },
+        "kor": {
+            "official": "콩고",
+            "common": "콩고"
+        },
+        "nld": {
+            "official": "Republiek Congo",
+            "common": "Congo"
+        },
+        "per": {
+            "official": "جمهوری برازاویل کُنگو",
+            "common": "جمهوری کُنگو"
+        },
+        "pol": {
+            "official": "Republika Konga",
+            "common": "Kongo"
+        },
+        "por": {
+            "official": "República do Congo",
+            "common": "Congo"
+        },
+        "rus": {
+            "official": "Республика Конго",
+            "common": "Республика Конго"
+        },
+        "slk": {
+            "official": "Konžská republika",
+            "common": "Kongo"
+        },
+        "spa": {
+            "official": "República del Congo",
+            "common": "Congo"
+        },
+        "swe": {
+            "official": "Republiken Kongo",
+            "common": "Kongo-Brazzaville"
+        },
+        "tur": {
+            "official": "Kongo Cumhuriyeti",
+            "common": "Kongo Cumhuriyeti"
+        },
+        "urd": {
+            "official": "جمہوریہ کانگو",
+            "common": "جمہوریہ کانگو"
+        },
+        "zho": {
+            "official": "刚果共和国",
+            "common": "刚果"
+        }
+    },
+    "latlng": [
+        -1.0,
+        15.0
+    ],
+    "landlocked": false,
+    "borders": [
+        "AGO",
+        "CMR",
+        "CAF",
+        "COD",
+        "GAB"
+    ],
+    "area": 342000.0,
+    "demonyms": {
+        "eng": {
+            "f": "Congolese",
+            "m": "Congolese"
+        },
+        "fra": {
+            "f": "Congolaise",
+            "m": "Congolais"
+        }
+    },
+    "flag": "\uD83C\uDDE8\uD83C\uDDEC",
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/Phf5dDDKdfCtuBTb6",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/192794"
+    },
+    "population": 5657000,
+    "gini": {
+        "2011": 48.9
+    },
+    "fifa": "CGO",
+    "car": {
+        "signs": [
+            "RCB"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC+01:00"
+    ],
+    "continents": [
+        "Africa"
+    ],
+    "flags": {
+        "png": "https://flagcdn.com/w320/cg.png",
+        "svg": "https://flagcdn.com/cg.svg"
+    },
+    "coatOfArms": {},
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            -4.25,
+            15.28
+        ]
+    }
+},
+{
+    "name": {
+        "common": "Brazil",
+        "official": "Federative Republic of Brazil",
+        "nativeName": {
+            "por": {
+                "official": "República Federativa do Brasil",
+                "common": "Brasil"
+            }
+        }
+    },
+    "tld": [
+        ".br"
+    ],
+    "cca2": "BR",
+    "ccn3": "076",
+    "cca3": "BRA",
+    "cioc": "BRA",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+        "BRL": {
+            "name": "Brazilian real",
+            "symbol": "R$"
+        }
+    },
+    "idd": {
+        "root": "+5",
+        "suffixes": [
+            "5"
+        ]
+    },
+    "capital": [
+        "Brasília"
+    ],
+    "altSpellings": [
+        "BR",
+        "Brasil",
+        "Federative Republic of Brazil",
+        "República Federativa do Brasil"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "languages": {
+        "por": "Portuguese"
+    },
+    "translations": {
+        "ara": {
+            "official": "جمهورية البرازيل الاتحادية",
+            "common": "البرازيل"
+        },
+        "bre": {
+            "official": "Republik Kevreel Brazil",
+            "common": "Brazil"
+        },
+        "ces": {
+            "official": "Brazilská federativní republika",
+            "common": "Brazílie"
+        },
+        "cym": {
+            "official": "Gweriniaeth Ffederal Brasil",
+            "common": "Brasil"
+        },
+        "deu": {
+            "official": "Föderative Republik Brasilien",
+            "common": "Brasilien"
+        },
+        "est": {
+            "official": "Brasiilia Liitvabariik",
+            "common": "Brasiilia"
+        },
+        "fin": {
+            "official": "Brasilian liittotasavalta",
+            "common": "Brasilia"
+        },
+        "fra": {
+            "official": "République fédérative du Brésil",
+            "common": "Brésil"
+        },
+        "hrv": {
+            "official": "Savezne Republike Brazil",
+            "common": "Brazil"
+        },
+        "hun": {
+            "official": "Brazil Szövetségi Köztársaság",
+            "common": "Brazília"
+        },
+        "ita": {
+            "official": "Repubblica federativa del Brasile",
+            "common": "Brasile"
+        },
+        "jpn": {
+            "official": "ブラジル連邦共和国",
+            "common": "ブラジル"
+        },
+        "kor": {
+            "official": "브라질 연방 공화국",
+            "common": "브라질"
+        },
+        "nld": {
+            "official": "Federale Republiek Brazilië",
+            "common": "Brazilië"
+        },
+        "per": {
+            "official": "جمهوری فدراتیو برزیل",
+            "common": "برزیل"
+        },
+        "pol": {
+            "official": "Federacyjna Republika Brazylii",
+            "common": "Brazylia"
+        },
+        "por": {
+            "official": "República Federativa do Brasil",
+            "common": "Brasil"
+        },
+        "rus": {
+            "official": "Федеративная Республика Бразилия",
+            "common": "Бразилия"
+        },
+        "slk": {
+            "official": "Brazílska federatívna republika",
+            "common": "Brazília"
+        },
+        "spa": {
+            "official": "República Federativa del Brasil",
+            "common": "Brasil"
+        },
+        "swe": {
+            "official": "Förbundsrepubliken Brasilien",
+            "common": "Brasilien"
+        },
+        "tur": {
+            "official": "Brezilya Federal Cumhuriyeti",
+            "common": "Brezilya"
+        },
+        "urd": {
+            "official": "وفاقی جمہوریہ برازیل",
+            "common": "برازیل"
+        },
+        "zho": {
+            "official": "巴西联邦共和国",
+            "common": "巴西"
+        }
+    },
+    "latlng": [
+        -10.0,
+        -55.0
+    ],
+    "landlocked": false,
+    "borders": [
+        "ARG",
+        "BOL",
+        "COL",
+        "GUF",
+        "GUY",
+        "PRY",
+        "PER",
+        "SUR",
+        "URY",
+        "VEN"
+    ],
+    "area": 8515767.0,
+    "demonyms": {
+        "eng": {
+            "f": "Brazilian",
+            "m": "Brazilian"
+        },
+        "fra": {
+            "f": "Brésilienne",
+            "m": "Brésilien"
+        }
+    },
+    "flag": "\uD83C\uDDE7\uD83C\uDDF7",
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/waCKk21HeeqFzkNC9",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/59470"
+    },
+    "population": 212559409,
+    "gini": {
+        "2019": 53.4
+    },
+    "fifa": "BRA",
+    "car": {
+        "signs": [
+            "BR"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC-05:00",
+        "UTC-04:00",
+        "UTC-03:00",
+        "UTC-02:00"
+    ],
+    "continents": [
+        "South America"
+    ],
+    "flags": {
+        "png": "https://flagcdn.com/w320/br.png",
+        "svg": "https://flagcdn.com/br.svg"
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/br.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/br.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            -15.79,
+            -47.88
+        ]
+    },
+    "postalCode": {
+        "format": "#####-###",
+        "regex": "^(\\d{8})$"
+    }
+},
+{
+    "name": {
+        "common": "Luxembourg",
+        "official": "Grand Duchy of Luxembourg",
+        "nativeName": {
+            "deu": {
+                "official": "Großherzogtum Luxemburg",
+                "common": "Luxemburg"
+            },
+            "fra": {
+                "official": "Grand-Duché de Luxembourg",
+                "common": "Luxembourg"
+            },
+            "ltz": {
+                "official": "Groussherzogtum Lëtzebuerg",
+                "common": "Lëtzebuerg"
+            }
+        }
+    },
+    "tld": [
+        ".lu"
+    ],
+    "cca2": "LU",
+    "ccn3": "442",
+    "cca3": "LUX",
+    "cioc": "LUX",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+        "EUR": {
+            "name": "Euro",
+            "symbol": "€"
+        }
+    },
+    "idd": {
+        "root": "+3",
+        "suffixes": [
+            "52"
+        ]
+    },
+    "capital": [
+        "Luxembourg"
+    ],
+    "altSpellings": [
+        "LU",
+        "Grand Duchy of Luxembourg",
+        "Grand-Duché de Luxembourg",
+        "Großherzogtum Luxemburg",
+        "Groussherzogtum Lëtzebuerg"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "languages": {
+        "deu": "German",
+        "fra": "French",
+        "ltz": "Luxembourgish"
+    },
+    "translations": {
+        "ara": {
+            "official": "دوقية لوكسمبورغ",
+            "common": "لوكسمبورغ"
+        },
+        "bre": {
+            "official": "Dugelezh Veur Luksembourg",
+            "common": "Luksembourg"
+        },
+        "ces": {
+            "official": "Lucemburské velkovévodství",
+            "common": "Lucembursko"
+        },
+        "cym": {
+            "official": "Grand Duchy of Luxembourg",
+            "common": "Luxembourg"
+        },
+        "deu": {
+            "official": "Großherzogtum Luxemburg,",
+            "common": "Luxemburg"
+        },
+        "est": {
+            "official": "Luksemburgi Suurhertsogiriik",
+            "common": "Luksemburg"
+        },
+        "fin": {
+            "official": "Luxemburgin suurherttuakunta",
+            "common": "Luxemburg"
+        },
+        "fra": {
+            "official": "Grand-Duché de Luxembourg",
+            "common": "Luxembourg"
+        },
+        "hrv": {
+            "official": "Veliko Vojvodstvo Luksemburg",
+            "common": "Luksemburg"
+        },
+        "hun": {
+            "official": "Luxemburgi Nagyhercegség",
+            "common": "Luxemburg"
+        },
+        "ita": {
+            "official": "Granducato di Lussemburgo",
+            "common": "Lussemburgo"
+        },
+        "jpn": {
+            "official": "ルクセンブルク大公国",
+            "common": "ルクセンブルク"
+        },
+        "kor": {
+            "official": "룩셈부르크 대공국",
+            "common": "룩셈부르크"
+        },
+        "nld": {
+            "official": "Groothertogdom Luxemburg",
+            "common": "Luxemburg"
+        },
+        "per": {
+            "official": "دوک‌نشین لوکزامبورگ",
+            "common": "لوکزامبورگ"
+        },
+        "pol": {
+            "official": "Wielkie Księstwo Luksemburga",
+            "common": "Luksemburg"
+        },
+        "por": {
+            "official": "Grão-Ducado do Luxemburgo",
+            "common": "Luxemburgo"
+        },
+        "rus": {
+            "official": "Великое Герцогство Люксембург",
+            "common": "Люксембург"
+        },
+        "slk": {
+            "official": "Luxemburské veľkovojvodstvo",
+            "common": "Luxembursko"
+        },
+        "spa": {
+            "official": "Gran Ducado de Luxemburgo",
+            "common": "Luxemburgo"
+        },
+        "swe": {
+            "official": "Storhertigdömet Luxemburg",
+            "common": "Luxemburg"
+        },
+        "tur": {
+            "official": "Lüksemburg Büyük Dükalığı",
+            "common": "Lüksemburg"
+        },
+        "urd": {
+            "official": "دوقیہ کبیرلکسمبرگ",
+            "common": "لکسمبرگ"
+        },
+        "zho": {
+            "official": "卢森堡大公国",
+            "common": "卢森堡"
+        }
+    },
+    "latlng": [
+        49.75,
+        6.16666666
+    ],
+    "landlocked": true,
+    "borders": [
+        "BEL",
+        "FRA",
+        "DEU"
+    ],
+    "area": 2586.0,
+    "demonyms": {
+        "eng": {
+            "f": "Luxembourger",
+            "m": "Luxembourger"
+        },
+        "fra": {
+            "f": "Luxembourgeoise",
+            "m": "Luxembourgeois"
+        }
+    },
+    "flag": "\uD83C\uDDF1\uD83C\uDDFA",
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/L6b2AgndgHprt2Ko9",
+        "openStreetMaps": "https://www.openstreetmap.org/relation/2171347#map=10/49.8167/6.1335"
+    },
+    "population": 632275,
+    "gini": {
+        "2018": 35.4
+    },
+    "fifa": "LUX",
+    "car": {
+        "signs": [
+            "L"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC+01:00"
+    ],
+    "continents": [
+        "Europe"
+    ],
+    "flags": {
+        "png": "https://flagcdn.com/w320/lu.png",
+        "svg": "https://flagcdn.com/lu.svg"
+    },
+    "coatOfArms": {
+        "png": "https://mainfacts.com/media/images/coats_of_arms/lu.png",
+        "svg": "https://mainfacts.com/media/images/coats_of_arms/lu.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            49.6,
+            6.12
+        ]
+    },
+    "postalCode": {
+        "format": "####",
+        "regex": "^(\\d{4})$"
+    }
+},
+{
+    "name": {
+        "common": "United States Virgin Islands",
+        "official": "Virgin Islands of the United States",
+        "nativeName": {
+            "eng": {
+                "official": "Virgin Islands of the United States",
+                "common": "United States Virgin Islands"
+            }
+        }
+    },
+    "tld": [
+        ".vi"
+    ],
+    "cca2": "VI",
+    "ccn3": "850",
+    "cca3": "VIR",
+    "cioc": "ISV",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "currencies": {
+        "USD": {
+            "name": "United States dollar",
+            "symbol": "$"
+        }
+    },
+    "idd": {
+        "root": "+1",
+        "suffixes": [
+            "340"
+        ]
+    },
+    "capital": [
+        "Charlotte Amalie"
+    ],
+    "altSpellings": [
+        "VI",
+        "Virgin Islands, U.S."
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": {
+        "eng": "English"
+    },
+    "translations": {
+        "ara": {
+            "official": "جزر العذراء الامريكية",
+            "common": "جزر العذراء الامريكية"
+        },
+        "bre": {
+            "official": "Inizi Gwerc'h ar Stadoù-Unanet",
+            "common": "Inizi Gwerc'h ar Stadoù-Unanet"
+        },
+        "ces": {
+            "official": "Americké Panenské ostrovy",
+            "common": "Americké Panenské ostrovy"
+        },
+        "cym": {
+            "official": "Virgin Islands of the United States",
+            "common": "United States Virgin Islands"
+        },
+        "deu": {
+            "official": "Amerikanische Jungferninseln",
+            "common": "Amerikanische Jungferninseln"
+        },
+        "est": {
+            "official": "Ühendriikide Neitsisaared",
+            "common": "Neitsisaared, USA"
+        },
+        "fin": {
+            "official": "Yhdysvaltain Neitsytsaaret",
+            "common": "Neitsytsaaret"
+        },
+        "fra": {
+            "official": "Îles Vierges des États-Unis",
+            "common": "Îles Vierges des États-Unis"
+        },
+        "hrv": {
+            "official": "Djevičanski Otoci SAD",
+            "common": "Američki Djevičanski Otoci"
+        },
+        "hun": {
+            "official": "Amerikai Virgin-szigetek",
+            "common": "Amerikai Virgin-szigetek"
+        },
+        "ita": {
+            "official": "Isole Vergini degli Stati Uniti",
+            "common": "Isole Vergini americane"
+        },
+        "jpn": {
+            "official": "米国のバージン諸島",
+            "common": "アメリカ領ヴァージン諸島"
+        },
+        "kor": {
+            "official": "미국령 버진아일랜드",
+            "common": "미국령 버진아일랜드"
+        },
+        "nld": {
+            "official": "Maagdeneilanden van de Verenigde Staten",
+            "common": "Amerikaanse Maagdeneilanden"
+        },
+        "per": {
+            "official": "جزایر ویرجین ایالات متحده آمریکا",
+            "common": "جزایر ویرجین ایالات متحده آمریکا"
+        },
+        "pol": {
+            "official": "Wyspy Dziewicze Stanów Zjednoczonych",
+            "common": "Wyspy Dziewicze Stanów Zjednoczonych"
+        },
+        "por": {
+            "official": "Ilhas Virgens dos Estados Unidos",
+            "common": "Ilhas Virgens dos Estados Unidos"
+        },
+        "rus": {
+            "official": "Виргинские острова Соединенных Штатов",
+            "common": "Виргинские Острова"
+        },
+        "slk": {
+            "official": "Americké Panenské ostrovy",
+            "common": "Americké Panenské ostrovy"
+        },
+        "spa": {
+            "official": "Islas Vírgenes de los Estados Unidos",
+            "common": "Islas Vírgenes de los Estados Unidos"
+        },
+        "swe": {
+            "official": "Amerikanska Jungfruöarna",
+            "common": "Amerikanska Jungfruöarna"
+        },
+        "tur": {
+            "official": "Amerika Birleşik Devletleri Virjin Adaları",
+            "common": "ABD Virjin Adaları"
+        },
+        "urd": {
+            "official": "امریکی جزائر ورجن",
+            "common": "امریکی جزائر ورجن"
+        },
+        "zho": {
+            "official": "美属维尔京群岛",
+            "common": "美属维尔京群岛"
+        }
+    },
+    "latlng": [
+        18.35,
+        -64.933333
+    ],
+    "landlocked": false,
+    "area": 347.0,
+    "demonyms": {
+        "eng": {
+            "f": "Virgin Islander",
+            "m": "Virgin Islander"
+        }
+    },
+    "flag": "\uD83C\uDDFB\uD83C\uDDEE",
+    "maps": {
+        "googleMaps": "https://goo.gl/maps/mBfreywj8dor6q4m9",
+        "openStreetMaps": "openstreetmap.org/relation/286898"
+    },
+    "population": 106290,
+    "fifa": "VIR",
+    "car": {
+        "signs": [
+            "USA"
+        ],
+        "side": "right"
+    },
+    "timezones": [
+        "UTC-04:00"
+    ],
+    "continents": [
+        "North America"
+    ],
+    "flags": {
+        "png": "https://flagcdn.com/w320/vi.png",
+        "svg": "https://flagcdn.com/vi.svg"
+    },
+    "coatOfArms": {},
+    "startOfWeek": "monday",
+    "capitalInfo": {
+        "latlng": [
+            18.35,
+            -64.93
+        ]
+    }
+}]
