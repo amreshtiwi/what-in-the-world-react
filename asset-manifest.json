@@ -1,24 +1,16 @@
 {
   "files": {
-    "main.css": "/what-in-the-world-react/static/css/main.f7021847.css",
-    "main.js": "/what-in-the-world-react/static/js/main.be70451a.js",
+    "main.css": "/what-in-the-world-react/static/css/main.627cde90.css",
+    "main.js": "/what-in-the-world-react/static/js/main.62e2d8ec.js",
     "static/js/787.97060601.chunk.js": "/what-in-the-world-react/static/js/787.97060601.chunk.js",
-    "static/media/af.svg": "/what-in-the-world-react/static/media/af.39e74801e5626eaaf6f0.svg",
     "static/media/NunitoSans-Regular.ttf": "/what-in-the-world-react/static/media/NunitoSans-Regular.a427ddbe4dc20889d6e0.ttf",
-    "static/media/al.svg": "/what-in-the-world-react/static/media/al.dd17f9b0b19aa16e7afe.svg",
-    "static/media/br.svg": "/what-in-the-world-react/static/media/br.0195f1434b135a18881f.svg",
     "index.html": "/what-in-the-world-react/index.html",
-    "static/media/us.svg": "/what-in-the-world-react/static/media/us.14abad61351d51223436.svg",
-    "static/media/ax.svg": "/what-in-the-world-react/static/media/ax.dae59e50e62504789ce5.svg",
-    "static/media/dz.svg": "/what-in-the-world-react/static/media/dz.8fee433ae9c49de475a8.svg",
-    "static/media/is.svg": "/what-in-the-world-react/static/media/is.bb94eebadbe98e459758.svg",
-    "static/media/de.svg": "/what-in-the-world-react/static/media/de.ed5be69598a5a9c32bc8.svg",
-    "main.f7021847.css.map": "/what-in-the-world-react/static/css/main.f7021847.css.map",
-    "main.be70451a.js.map": "/what-in-the-world-react/static/js/main.be70451a.js.map",
+    "main.627cde90.css.map": "/what-in-the-world-react/static/css/main.627cde90.css.map",
+    "main.62e2d8ec.js.map": "/what-in-the-world-react/static/js/main.62e2d8ec.js.map",
     "787.97060601.chunk.js.map": "/what-in-the-world-react/static/js/787.97060601.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7021847.css",
-    "static/js/main.be70451a.js"
+    "static/css/main.627cde90.css",
+    "static/js/main.62e2d8ec.js"
   ]
 }
