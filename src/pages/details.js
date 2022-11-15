@@ -1,43 +1,76 @@
-import { Button } from "@mui/material";
-import { useNavigate } from "react-router-dom";
-import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-import country from '../countries.json';
+import { Box, Button } from "@mui/material";
+import { useNavigate, useParams } from "react-router-dom";
+import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+import { useEffect, useState } from "react";
+import { createBreakpoint } from "styled-components-breakpoint";
+import styled from "styled-components";
+import CountryFlag from "../component/detailsSection/countryFlag";
+import Info from "../component/detailsSection/CountryInfo";
 
-export default function Details(){
-    const navigate = useNavigate();
+const breakpoints = {
+  xs: 0,
+  sm: 576,
+  md: 768,
+  lg: 992,
+  xl: 1200,
+};
 
-    return(
-        <div className="container px-4 px-lg-0 " style={{ padding: "1rem 0", marginTop: "100px", }}>
-            <Button startIcon={<ArrowBackIcon />} onClick={()=> navigate('/')} sx={{ backgroundColor: "white", color: "black" , boxShadow: "0 3px 10px -7px #858585"}}> Back</Button>
-            <div className="my-3 py-5 row justify-content-between align-items-center">
-                <img src={country[0].flags.svg} alt={country[0].name.common} className="col col-lg-5 mb-5 mb-lg-0" style={{height: "400px", objectFit: "cover",}} ></img>
-                <div className="col-lg-6">
-                    <h2 className="fs-2 fw-bold">{country[0].name.official}</h2>
-                    <div className="row justify-content-between">
-                        <div className="my-3 col-lg-6">
-                            <p className="my-2"><strong className="fw-semibold">Native Name:</strong> {Object.values(country[0].name.nativeName)[0].common}</p>
-                            <p className="my-2"><strong className="fw-semibold">Population:</strong> {country[0].population.toLocaleString()}</p>
-                            <p className="my-2"><strong className="fw-semibold">Region:</strong> {country[0].region}</p>
-                            <p className="my-2"><strong className="fw-semibold">Sub Region:</strong> {country[0].subregion}</p>
-                            <p className="my-2"><strong className="fw-semibold">Capital:</strong> {country[0].capital}</p>
-                        </div>
+const breakpoint1 = createBreakpoint(breakpoints);
 
-                        <div className="my-3 col-lg-6">
-                            <p className="my-2"><strong className="fw-semibold">Top Level Domain:</strong> {country[0].tld}</p>
-                            <p className="my-2"><strong className="fw-semibold">currencies:</strong> {Object.values(country[0].currencies).map(cur => cur.name).join(",")}</p>
-                            <p className="my-2"><strong className="fw-semibold">Languages:</strong> {Object.values(country[0].languages).join(", ")}</p>
-                        </div>
+const DetailsBox = styled(Box)`
+  ${breakpoint1("xs")`
+  margin-top: 100px;
+  margin-right: 50px;
+  margin-left: 50px;
+  `}
+  ${breakpoint1("md")`
+  margin: 100px;
+  `}
+`;
 
-                        <div className="row align-items-center my-3 ">
-                            <div className="col-lg-3 mb-3 mb-lg-0"><strong className="fw-semibold">Border Countries:</strong></div>
-                            <div className="borderBtns col-lg-9 d-flex flex-wrap justify-content-start gap-2" id="borderBtns"></div>
-                        </div>
-                    </div>
+export default function Details() {
+  const navigate = useNavigate();
+  const { code } = useParams();
+  const URL = "https://restcountries.com/v3.1/alpha/" + code;
+  const [country, setCountry] = useState({});
+  const [isLoaded, setIsLoaded] = useState(false);
 
-                </div>
+  useEffect(() => {
+    fetch(URL)
+      .then((res) => res.json())
+      .then((res) => {
+        setCountry(res[0]);
+        setIsLoaded(true);
+      });
+  }, [URL]);
 
-            </div>
-        </div>
-        
-    )
+  return (
+    <DetailsBox>
+      <Button
+        startIcon={<ArrowBackIcon />}
+        onClick={() => navigate("/")}
+        sx={{
+          backgroundColor: "white",
+          color: "black",
+          boxShadow: "0 3px 10px -7px #858585",
+        }}
+      >
+        {" "}
+        Back
+      </Button>
+
+      <Box
+        display={"flex"}
+        justifyContent={"space-between"}
+        alignSelf={"center"}
+        flexWrap={"wrap"}
+        ml={"72px"}
+        mr={"72px"}
+        mt={"60px"}
+      >
+        {isLoaded && (<CountryFlag cca2={country.cca2} src={country.flags.svg} />)}
+        {isLoaded && <Info country={country} />}
+      </Box>
+    </DetailsBox>
+  );
 }
