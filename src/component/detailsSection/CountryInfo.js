@@ -2,9 +2,28 @@ import {Box, Typography} from "@mui/material";
 import {useEffect, useState} from "react";
 import InfoItem from "./infoItem";
 import CountryBorders from "./CountryBorders";
+import styled from "styled-components";
+import { createBreakpoint } from "styled-components-breakpoint";
 
+const breakpoints = {
+    xs: 0,
+    sm: 576,
+    md: 768,
+    lg: 992,
+    xl: 1200,
+  };
+  
+const breakpoint1 = createBreakpoint(breakpoints);
 
-
+const InfoBox = styled(Box)`
+margin-top: 40px;
+${breakpoint1("xs")`
+width: 100%;
+`}
+${breakpoint1("md")`
+width: 45%;
+`}
+`;
 export default function Info({country}) {
 
     const [borders, setBorders] = useState();
@@ -14,7 +33,7 @@ export default function Info({country}) {
         setBorders(country.borders);
     }, [country]);
 
-    return <Box mt={'40px'} width={'45%'} >
+    return <InfoBox >
         <Typography fontWeight={600} mb={'25px'} variant={"h5"}>
             {country.name.common}
         </Typography>
@@ -33,5 +52,5 @@ export default function Info({country}) {
             </Box>
             {borders && <CountryBorders borders={borders}/>}
         </Box>
-    </Box>;
+    </InfoBox>;
 }

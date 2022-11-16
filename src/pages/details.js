@@ -28,6 +28,22 @@ const DetailsBox = styled(Box)`
   `}
 `;
 
+const DetailsInfo = styled(Box)`
+display: flex;
+justify-content: space-between;
+align-self: center;
+${breakpoint1("xs")`
+flex-direction: column;
+flex-wrap: wrap;
+margin-top: 30px;
+`}
+${breakpoint1("md")`
+flex-direction: row;
+margin-top: 60px;
+margin-right: 72px;
+`}
+`;
+
 export default function Details() {
   const navigate = useNavigate();
   const { code } = useParams();
@@ -59,18 +75,10 @@ export default function Details() {
         Back
       </Button>
 
-      <Box
-        display={"flex"}
-        justifyContent={"space-between"}
-        alignSelf={"center"}
-        flexWrap={"wrap"}
-        ml={"72px"}
-        mr={"72px"}
-        mt={"60px"}
-      >
+      <DetailsInfo>
         {isLoaded && (<CountryFlag cca2={country.cca2} src={country.flags.svg} />)}
         {isLoaded && <Info country={country} />}
-      </Box>
+      </DetailsInfo>
     </DetailsBox>
   );
 }

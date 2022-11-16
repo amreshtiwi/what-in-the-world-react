@@ -1,9 +1,19 @@
+import styled from "styled-components";
+
+const StyledLabel = styled.label`
+font-weight: 600;
+margin-bottom: 12px;
+`;
+
+const StyledSpan = styled.span`
+font-weight: 300;
+`;
+
 export default function InfoItem({label, value}) {
 
-    const labelStyle = {marginBottom: '12px', fontWeight: '600'};
 
-    return <label style={labelStyle}>
+    return <StyledLabel>
         {label}
-        <span> {value}</span>
-    </label>
+        <StyledSpan> {value}</StyledSpan>
+    </StyledLabel>
 }
