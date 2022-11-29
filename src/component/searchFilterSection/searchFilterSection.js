@@ -3,7 +3,7 @@ import SelectLabels from "./filter";
 import Search from "./search";
 
 
-export default function SearchFilterSection() {
+export default function SearchFilterSection(props) {
   return (
     <Grid
       container
@@ -12,11 +12,11 @@ export default function SearchFilterSection() {
       spacing={4}
     >
       <Grid item xs={12} md={4}>
-        <Search />
+        <Search value={props.value} searchHandler={props.searchHandler} />
       </Grid>
 
       <Grid item xs={3} md={2}>
-        <SelectLabels />
+        <SelectLabels filterHandler={props.filterHandler} />
       </Grid>
     </Grid>
   );

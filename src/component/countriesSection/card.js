@@ -1,10 +1,9 @@
 import { Card, CardMedia } from "@mui/material";
 import { Link } from "react-router-dom";
 import Grid from "@mui/material/Unstable_Grid2";
-import { useContext, useEffect, useState } from "react";
+import {  useEffect, useState } from "react";
 import StarIcon from "@mui/icons-material/Star";
 import CardInfo from "./cardInfo";
-import CountriesContext from "../../container-context/CountriesContainer";
 import styled from "styled-components";
 import { createBreakpoint } from "styled-components-breakpoint";
 
@@ -28,20 +27,19 @@ display: none !important;;
 `}
 `;
 
-export default function CountryCard({ country }) {
+export default function CountryCard({ country , favourites,addToFavourites}) {
   const [opacity, setOpacity] = useState("1");
   const [star, setStar] = useState("lightgray");
-  const countriesContext = useContext(CountriesContext);
-  const favourites = countriesContext.favourites;
+  const _favourites = favourites;
 
   useEffect(() => {
-    const c = favourites.find((c) => c.cca2 === country.cca2);
+    const c = _favourites.find((c) => c.cca2 === country.cca2);
     if (c) {
       setStar("orange");
     } else {
       setStar("lightgray");
     }
-  }, [favourites, country.cca2]);
+  }, [_favourites, country.cca2]);
 
   function dragStart(event) {
     event.dataTransfer.setData("Text", JSON.stringify(country));
@@ -54,7 +52,7 @@ export default function CountryCard({ country }) {
 
   function addToList() {
     setStar(star === "orange" ? "lightgray" : "orange");
-    countriesContext.addToFavourites(country, true);
+    addToFavourites(country, true);
   }
 
   return (

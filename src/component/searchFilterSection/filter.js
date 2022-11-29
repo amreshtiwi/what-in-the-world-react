@@ -2,11 +2,8 @@ import * as React from "react";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
-import { useContext } from "react";
-import CountriesContext from "../../container-context/CountriesContainer";
 
-export default function SelectLabels() {
-  const countriesContext = useContext(CountriesContext);
+export default function SelectLabels(props) {
   const [filter, setFilter] = React.useState("");
   const selectItem = [
     "Asia",
@@ -20,7 +17,7 @@ export default function SelectLabels() {
 
   const selectFilter = (e) => {
     setFilter(e.target.value ? e.target.value : "");
-    countriesContext.filterHandler(e.target.value);
+    props.filterHandler(e.target.value);
   };
 
   return (

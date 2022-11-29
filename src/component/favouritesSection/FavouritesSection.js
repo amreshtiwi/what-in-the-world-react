@@ -27,13 +27,13 @@ flex-direction: column;
 `}
 `;
 
-export default function FavouritesSection() {
+export default function FavouritesSection(props) {
   return (
     <StyledBox>
       <Typography variant={"h1"} mt={2} ml={3} mr={3} fontSize={'24px'} fontWeight={"bold"}>
         Favourites
       </Typography>
-      <FavList></FavList>
+      <FavList favourites = {props.favourites} addToFavourites={props.addToFavourites} removeFromFavourites={props.removeFromFavourites}></FavList>
     </StyledBox>
   );
 }

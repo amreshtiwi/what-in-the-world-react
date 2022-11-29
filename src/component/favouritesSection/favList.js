@@ -1,16 +1,14 @@
 import List from "@mui/material/List";
-import { useContext, useState } from "react";
-import CountriesContext from "../../container-context/CountriesContainer";
+import { useState } from "react";
 import ListItem from "./listItem";
 
-export default function FavList() {
+export default function FavList(props) {
   const [border, setBorder] = useState("");
-  const countriesContext = useContext(CountriesContext);
-  const favourites = countriesContext.favourites;
+  const favourites = props.favourites;
 
   const drop = (event) => {
     const draggedCountry = JSON.parse(event.dataTransfer.getData("Text"));
-    countriesContext.addToFavourites(draggedCountry);
+   props.addToFavourites(draggedCountry);
     setBorder("none");
   };
 
@@ -44,6 +42,7 @@ export default function FavList() {
           key={country.cca2}
           src={country.flags.svg}
           name={country.name.common}
+          removeItem={props.removeFromFavourites}
         />
       ))}
     </List>

@@ -2,7 +2,7 @@ import { Box } from "@mui/system";
 import styled from "styled-components";
 import FavAndCountriesSection from "../component/favAndCountriesSection";
 import SearchFilterSection from "../component/searchFilterSection/searchFilterSection";
-import {createBreakpoint} from "styled-components-breakpoint";
+import { createBreakpoint } from "styled-components-breakpoint";
 
 const breakpoints = {
   xs: 0,
@@ -11,27 +11,33 @@ const breakpoints = {
   lg: 992,
   xl: 1200,
 };
- 
+
 const breakpoint1 = createBreakpoint(breakpoints);
 
 const HomeBox = styled(Box)`
-
-${breakpoint1('xs')`
+  ${breakpoint1("xs")`
 margin-top: 100px;
 margin-right: 50px;
 margin-left: 50px;
 `}
-${breakpoint1('md')`
+  ${breakpoint1("md")`
 margin: 100px;
 `}
 `;
-export default function Home() {
-
-
+export default function Home(props) {
   return (
     <HomeBox>
-      <SearchFilterSection />
-      <FavAndCountriesSection />
+      <SearchFilterSection
+        value={props.value}
+        searchHandler={props.searchHandler}
+        filterHandler={props.filterHandler}
+      />
+      <FavAndCountriesSection
+        favourites={props.favourites}
+        addToFavourites={props.addToFavourites}
+        removeFromFavourites={props.removeFromFavourites}
+        countries={props.countries}
+      />
     </HomeBox>
   );
 }

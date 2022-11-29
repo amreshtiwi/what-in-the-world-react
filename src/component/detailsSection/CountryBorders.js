@@ -1,7 +1,6 @@
 import { Box } from "@mui/material";
 import { useEffect, useState } from "react";
 import styled from "styled-components";
-import { createBreakpoint } from "styled-components-breakpoint";
 import Border from "./border";
 
 

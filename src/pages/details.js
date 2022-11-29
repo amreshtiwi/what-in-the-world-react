@@ -1,11 +1,11 @@
 import { Box, Button } from "@mui/material";
 import { useNavigate, useParams } from "react-router-dom";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
-import { useEffect, useState } from "react";
 import { createBreakpoint } from "styled-components-breakpoint";
 import styled from "styled-components";
 import CountryFlag from "../component/detailsSection/countryFlag";
 import Info from "../component/detailsSection/CountryInfo";
+import { useEffect, useState } from "react";
 
 const breakpoints = {
   xs: 0,
@@ -47,18 +47,18 @@ margin-right: 72px;
 export default function Details() {
   const navigate = useNavigate();
   const { code } = useParams();
-  const URL = "https://restcountries.com/v3.1/alpha/" + code;
   const [country, setCountry] = useState({});
   const [isLoaded, setIsLoaded] = useState(false);
+  const alphaURL = "https://restcountries.com/v3.1/alpha/" + code;
 
   useEffect(() => {
-    fetch(URL)
+    fetch(alphaURL)
       .then((res) => res.json())
       .then((res) => {
         setCountry(res[0]);
         setIsLoaded(true);
       });
-  }, [URL]);
+  }, [code]);
 
   return (
     <DetailsBox>
