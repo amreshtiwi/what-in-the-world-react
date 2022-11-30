@@ -58,7 +58,7 @@ export default function Details() {
         setCountry(res[0]);
         setIsLoaded(true);
       });
-  }, [code]);
+  }, [alphaURL]);
 
   return (
     <DetailsBox>

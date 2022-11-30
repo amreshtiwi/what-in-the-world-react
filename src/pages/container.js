@@ -18,6 +18,7 @@ export default function Container() {
   const [filterValue, setFilterValue] = useState("");
   const [allCountries, setAllCountries] = useState([]);
   const [currentCountries, setCurrentCountries] = useState([]);
+  const [filterdCountries, setFilterdCountries] = useState([]);
   const [favourites, setFavourites] = useState(
     JSON.parse(localStorage.getItem("fav")) || []
   );
@@ -35,9 +36,7 @@ export default function Container() {
       .then((countries) => {
         if (!active) {
           !searchValue.trim() && setAllCountries(countries);
-
-          const filteredCountries = filterCountries(countries);
-          setCurrentCountries(filteredCountries);
+          setCurrentCountries(countries);
         }
       })
       .catch(() => {
@@ -48,39 +47,28 @@ export default function Container() {
   }, [searchValue]);
 
   useEffect(() => {
-    const filteredCountries = filterCountries(filterValue === "Favourites" ? favourites : allCountries);
-    setCurrentCountries(filteredCountries);
-  }, [filterValue]);
+    let countries = filterValue === "Favourites" ? favourites : currentCountries;
+    let res = countries.filter((c) => {
+      let isBelong =  c;
+      if (filterValue && filterValue !== "Favourites") {
+        isBelong = isBelong && c.region.includes(filterValue);
+      }
+      return isBelong;
+    });
+    setFilterdCountries(res);
+  }, [filterValue,currentCountries,favourites]);
 
 
 
   const searchHandler = (_searchValue) => {
-    let timer;
-    function setting() {
-      clearTimeout(timer);
       setSearchValue(_searchValue);
-    }
-
-    clearTimeout(timer);
-    timer = setTimeout(setting, 500);
   };
 
   const filterHandler = (_filterValue) => {
     setFilterValue(_filterValue);
   };
 
-  const filterCountries = (countries) => {
-    let res = countries.filter((c) => {
-      let isBelong = searchValue
-        ? c.name.official.toLowerCase().includes(searchValue.toLowerCase())
-        : c;
-      if (filterValue && filterValue !== "Favourites") {
-        isBelong = isBelong && c.region.includes(filterValue);
-      }
-      return isBelong;
-    });
-    return res;
-  };
+
 
   const addToFavourites = (newCountry, isAStarClicked) => {
     const country = favourites.find((c) => c.cca2 === newCountry.cca2);
@@ -120,7 +108,7 @@ export default function Container() {
               filterHandler={filterHandler}
               addToFavourites={addToFavourites}
               removeFromFavourites={removeFromFavourites}
-              countries={currentCountries}
+              countries={filterdCountries}
               favourites={favourites}
             />
           }
